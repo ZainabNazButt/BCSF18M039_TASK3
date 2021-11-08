@@ -14,9 +14,9 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="64dp"
         android:text="Name"
-        android:fontFamily="@font/text_font"
         android:textColor="@color/white"
         android:textSize="24sp"
+        android:fontFamily="@font/text_font"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,8 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="60dp"
-        android:text="Zainab Butt"
         android:fontFamily="@font/text_font"
+        android:text="Zainab Butt"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -76,10 +76,30 @@
         android:id="@+id/visitRepository"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="64dp"
-        android:text="Visit Repository"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
         android:onClick="onClick"
+        android:text="Visit Repository"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/practise_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="Practise  Makhārij al-Hurūf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visitRepository" />
+
+    <Button
+        android:id="@+id/exam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="Exam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/practise_main" />
 </androidx.constraintlayout.widget.ConstraintLayout>

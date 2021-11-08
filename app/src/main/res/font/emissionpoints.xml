@@ -5,4 +5,11 @@
         android:fontWeight="900"
         android:font="@font/text_font" />
 
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="900"
+        android:font="@font/josefin_sans_bold" />
+
+
+
 </font-family>
