@@ -25,11 +25,11 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="122dp"
         android:text="Arabic Letters"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="21sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,12 +38,16 @@
         android:id="@+id/textView9"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="9dp"
         android:text="Sound Produced From"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="21sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
@@ -82,8 +86,8 @@
         android:layout_marginEnd="9dp"
         android:text="One side of the tongue touching the molar teeth"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="19sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView10"
@@ -97,8 +101,8 @@
         android:layout_marginEnd="8dp"
         android:text="One side of the tongue touching the molar teeth"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="19sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView" />
 

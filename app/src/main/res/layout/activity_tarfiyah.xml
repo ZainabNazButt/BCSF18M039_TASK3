@@ -29,21 +29,25 @@
         android:layout_marginTop="98dp"
         android:text="Arabic Letters"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="21sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <AutoCompleteTextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="31dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="9dp"
         android:text="Sound Produced From"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
@@ -51,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="88dp"
         android:text="ل"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -82,8 +86,8 @@
         android:layout_marginEnd="8dp"
         android:text="Rounded tip of the tongue touching the base of the frontal 8 teeth"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="19sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView10"
@@ -97,8 +101,8 @@
         android:layout_marginEnd="8dp"
         android:text="Rounded tip of the tongue touching the base of the frontal 6 teeth"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="19sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView" />
 
@@ -130,7 +134,7 @@
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
-        android:layout_height="220dp"
+        android:layout_height="190dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView2"

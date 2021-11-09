@@ -25,25 +25,28 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="60dp"
         android:text="Arabic Letters"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="21sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <MultiAutoCompleteTextView
         android:id="@+id/textView9"
-        android:layout_width="210dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
         android:text="Sound Produced From"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="21sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
@@ -51,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="87dp"
         android:text="م ن"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -59,19 +62,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
+
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="88dp"
         android:text="ف"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
 
     <MultiAutoCompleteTextView
         android:id="@+id/multiAutoCompleteTextView"
@@ -82,8 +85,7 @@
         android:layout_marginEnd="9dp"
         android:text="While pronouncing the ending sound of م or ن , bring the vibration to the nose"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView10"
@@ -97,8 +99,7 @@
         android:layout_marginEnd="9dp"
         android:text="Tip of the two upper jaw teeth touches the inner part of the lower lip "
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView" />
 
@@ -107,7 +108,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="68dp"
         android:text="ب"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -123,7 +124,8 @@
         android:layout_marginEnd="9dp"
         android:text="Inner part of the both lips touch each other"
         android:textColor="@color/white"
-        android:textStyle="bold"
+
+        android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView" />
 
@@ -174,8 +176,8 @@
         android:layout_marginEnd="9dp"
         android:text="Outer part of both lips touch each other  "
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="19sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView2" />
 
@@ -187,8 +189,8 @@
         android:layout_marginEnd="9dp"
         android:text="Rounding both lips and not closing the mouth  "
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="19sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView3" />
 
@@ -200,8 +202,8 @@
         android:layout_marginEnd="9dp"
         android:text="Mouth empty space while speaking words like  باَ بوُ بىِ  "
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="19sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView4" />
 
