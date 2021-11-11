@@ -127,9 +127,9 @@
         android:id="@+id/prac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="158dp"
         android:layout_marginTop="50dp"
         android:text="Practise"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Shajariyah" />
 
