@@ -38,6 +38,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(MainActivity.this, MainActivity2.class);
                 startActivity(intent);
                 break;
+            case R.id.exam:
+                intent = new Intent(MainActivity.this,Exam.class);
+                intent.putExtra("ButtonName","Exam");
+                startActivity(intent);
+                break;
             default:
                     throw new IllegalStateException("Unexpected value: " + v.getId());
             }

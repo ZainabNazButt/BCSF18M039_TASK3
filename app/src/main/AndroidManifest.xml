@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Task3_EmissionPoints">
         <activity
+            android:name=".FinalResult"
+            android:exported="false" />
+        <activity
+            android:name=".Exam"
+            android:exported="false" />
+        <activity
+            android:name=".Practise"
+            android:exported="false" />
+        <activity
+            android:name=".Ghunna"
+            android:exported="false" />
+        <activity
+            android:name=".Lisaveyah"
+            android:exported="false" />
+        <activity
+            android:name=".Nit_eeyah"
+            android:exported="false" />
+        <activity
+            android:name=".Tarfiyah"
+            android:exported="false" />
+        <activity
+            android:name=".Shajariyah"
+            android:exported="false" />
+        <activity
+            android:name=".Lahatiyah"
+            android:exported="false" />
+        <activity
+            android:name=".Halqiyah"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
@@ -21,8 +51,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
     </application>
 
 </manifest>
